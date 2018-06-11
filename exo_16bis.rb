@@ -2,7 +2,7 @@ puts "Salut, quel âge as tu ?"
 age = Integer(gets.chomp)
 i = 0
 j = age
-age.times do
+until j==0
 	if i == 0 
 		puts "Il y a #{j} ans, tu es né."
 
